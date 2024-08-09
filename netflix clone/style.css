@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.main{
+    background-image: url(/img/IN-en-20231204-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size:  max(1400px, 100vw);
+    background-position: center center;
+    position: relative;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    opacity: 0.74;
+   background-color: black;
+}
+.navbar{
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+    height: 62px;
+}
+nav{
+    /* background-color: rgb(56, 48, 48); */
+}
+nav img{
+    height: 24px;
+    width: 89px;
+    position: relative;
+    z-index: 10;
+    color: rgb(241, 18, 18);
+}
+nav button{
+    position: relative;
+    z-index: 10;
+    width: 5rem;
+    height: 1.6rem;
+    border-radius: 2px;
+    border: none;
+}
+#btn_1{
+   background-color: transparent;
+   color: white;
+    height: 1.8rem;
+    width: 6.4rem;
+    border: 0.01rem solid rgb(116, 116, 116);
+    border-radius: 3px;
+}
+#btn_2{
+    background-color: rgb(241, 18, 18);
+    color: white;
+    height: 1.9rem;
+    width: 3.7rem;
+}
+.content{
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    /* background-color: antiquewhite; */
+    width: 100vw;
+    margin-top: 60px;
+}
+  .content h1{
+    font-size:3rem ;
+    font-weight: 900;
+    color: aliceblue;
+}
+.content p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2;
+}
+.content h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2.5;
+}
+.content input{
+    height: 3.5rem;
+    border: 0.01rem solid rgb(116, 116, 116);
+    border-radius: 5px;
+    width: 25.25rem;
+    line-height: 1.5;
+    background-color: transparent;
+    border-radius: 5px;
+    /* position: relative; */
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 10px;
+}
+#btn_3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    min-height: 3.5rem;
+    padding: 0.75rem 1.5rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+}
+.line{
+    width: 100vw;
+    height: 2vh;
+    background-color: rgb(95, 95, 95);
+}
+.box_1{
+    width: 100vw;
+    height: 85vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   padding: 45px 20px 45px 20px;
+}
+.subbox{
+    /* border: 2px solid red; */
+    /* max-width: 100%-3rem; */
+    width: 39vw;
+    height: 100%;
+    overflow: hidden;
+}
+.heading{
+    font-size:3rem ;
+    font-weight: 900;
+    color: aliceblue;
+    line-height: 1.5;
+}
+.para{
+    font-size: 1.4rem;
+    font-weight: 400;
+    /* line-height: 2; */
+    color: aliceblue;
+}
+.tv img{
+      /* height: 100%; */
+      /* width: 100%; */
+      /* position: absolute; */
+      /* top: 0; */
+      height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.tv video{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.boxContent{
+      /* padding-left: 30px; */
+      text-align: left;
+      /* align-items: center; */
+      height: auto;
+      /* margin: auto; */
+
+}
+.tv{
+    position: relative;
+    top: 0;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+.mobileBottom{
+    border: 0.15rem solid rgb(151, 150, 150);
+    width: 28vw;
+    margin: auto;
+    height: 15vh;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(0, 0, 0);
+    top: -130px;
+    border-radius: 15px;
+    display: flex;
+}
+.upOnMobile{
+    width: 20%;
+    height: 100%;
+    padding: 10px;
+}
+.content2{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    align-items: center;
+}
+.content2 p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.subbox3_2{
+    /* overflow: hidden; */
+}
+.subbox3_2 img{
+    /* overflow: hidden; */
+}
+ .subbox3_2 video{
+    position: absolute;
+    top: -91px;
+    /* overflow: hidden; */
+    height: 100%;
+    left: 92px;
+    /* z-index: -1; */
+}
+.hidden{
+    overflow: hidden;
+}
+.faq{
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+
+}
+.faq h1{
+    font-size:3rem ;
+    font-weight: 900;
+    color: aliceblue;
+    /* margin-top: -400px; */
+    text-align: center;
+}
+.faq div{
+    border: 2px solid red;
+}
+
+
